@@ -1,0 +1,31 @@
+{
+  "name": "aws-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha $*",
+    "test:unit": "npx mocha test/unit --recursive",
+    "test:integration": "npx mocha test/integration --recursive",
+    "test:all": "npm run test:unit && npm run test:integration"
+  },
+  "keywords": [],
+  "author": "Steven Reich",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.260.1",
+    "js-yaml": "^3.12.0",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0",
+    "nock": "^9.3.0",
+    "nyc": "^12.0.2",
+    "rewire": "^4.0.1",
+    "sinon": "^5.0.10",
+    "sinon-chai": "^3.1.0"
+  }
+}

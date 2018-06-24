@@ -59,3 +59,18 @@ typings/
 
 # next.js build output
 .next
+
+
+# directory for scratch code
+scratch-code
+
+# test coverage cache
+.nyc_output
+
+# test coverage output directory
+coverage
+
+# scratch files
+tauman*
+sreich*
+
